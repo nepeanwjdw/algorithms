@@ -6,8 +6,8 @@ def create_array(length)
   arr
 end
 
-i = 0000
-while i < 100000 do
+i = 0
+while i < 100000
   i += 5000
   arr = create_array(i)
   time = Benchmark.realtime do
@@ -16,8 +16,8 @@ while i < 100000 do
   puts time*1000
 end
 
-# i = 0000
-# while i < 100000 do
+# i = 0
+# while i < 100000
 #   i += 5000
 #   arr = create_array(i)
 #   time = Benchmark.realtime do
@@ -25,9 +25,9 @@ end
 #   end
 #   puts time*1000
 # end
-#
-# i = 0000
-# while i < 100000 do
+
+# i = 0
+# while i < 100000
 #   i += 5000
 #   arr = create_array(i)
 #   time = Benchmark.realtime do
@@ -36,8 +36,8 @@ end
 #   puts time*1000
 # end
 #
-# i = 0000
-# while i < 100000 do
+# i = 0
+# while i < 100000
 #   i += 5000
 #   arr = create_array(i)
 #   time = Benchmark.realtime do
